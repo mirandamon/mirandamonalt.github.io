@@ -1,0 +1,57 @@
+/* Tag Selectors */
+h1,
+h2,
+h3 {
+  color: cadetblue;
+  font-size: 14px;
+}
+
+.important {
+  color: blue !important;
+}
+
+#sub-heading,
+#heading {
+  color: blanchedalmond;
+}
+
+/* a {
+  color: green;
+  text-decoration: none;
+} */
+
+/* a:hover {
+  color: red;
+  text-decoration: underline;
+} */
+
+/* body {
+  font-family: "Open Sans", sans-serif;
+  color: magenta;
+} */
+
+.non-important {
+  color: red;
+  border: 5px solid rgb(163, 143, 92);
+  display: block;
+}
+.box-model-demo {
+  background-color: cyan;
+  border: 10px solid goldenrod;
+  /* padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding: 36px;
+
+  margin-top: 30px;
+  margin: 30px 0 0 0; */
+}
+
+/*
+1. Margin
+2. Border (goldenrod)
+3. Padding
+4. Content (cyan)
+
+*/
